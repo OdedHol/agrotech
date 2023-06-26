@@ -1,6 +1,3 @@
-//addapted from:
-//https://microcontrollerslab.com/esp32-mqtt-client-publish-subscribe-bme280-readings-hivemq/
-
 #include <Arduino.h>
 #include <WiFi.h>
 #include <PubSubClient.h>
@@ -14,7 +11,7 @@ const char* password = "33072036";
 char *mqttServer = "broker.hivemq.com";
 int mqttPort = 1883;
 
-int LED_pin = A4;
+int Relay_pin = A4;
 String msgString; // Declare msgString variable in the global scope
 
 void setupMQTT() {
@@ -49,8 +46,8 @@ void setup() {
 
   setupMQTT();
 
-  pinMode(LED_pin, OUTPUT);
-  digitalWrite(LED_pin, LOW); 
+  pinMode(Relay_pin, OUTPUT);
+  digitalWrite(Relay_pin, LOW); 
   
 }
 
@@ -75,12 +72,12 @@ void callback(char* topic, byte* message, unsigned int length) {
 
   Serial.print("Message: ");
   Serial.println(msgString);
-  Serial.print("LED State: ");
-  Serial.println(ledState);
+  Serial.print("Relay State: ");
+  Serial.println(relaystate);
 
-  if (ledState == 1) {
-    digitalWrite(LED_pin, HIGH);  // Set pin A4 high
-  } else if (ledState == 0) {
-    digitalWrite(LED_pin, LOW);   // Set pin A4 low
+  if (relaystate == 1) {
+    digitalWrite(Relay_pin, HIGH);  // Set pin A4 high
+  } else if (relaystate == 0) {
+    digitalWrite(Relay_pin, LOW);   // Set pin A4 low
   }
 }
