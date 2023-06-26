@@ -1,8 +1,6 @@
 # Deep Water Culture (DWC)
-We wanted to understaned how plants that grow in hydrophnic system absorb their nutrients through the water.
+We aimed to understand how plants that grow in hydroponic systems absorb nutrients through water. To achieve this, we developed a hydroponic system that measures the nutrient levels in the water and automatically adjusts the pH and fertilizer accordingly.
 
-To do so, we built a hydrophonic system, that massure the nutrients of the water and provide ph or fertelizer as needed automaticlly.
+Using five EPSs, we were able to continuously monitor essential factors such as EC, pH, water temperature, and leaf temperature.
 
-By using 5 (?) EPS's we managed to maintain a on going measurment of EC, pH, water temp, leaf temp etc.
-
-While also provide constant water, pH and fertelizer based on need and time we chose randomly.
+Additionally, our system ensures a consistent water supply and regulates pH and fertilizer application based on the plants' requirements and predetermined intervals
