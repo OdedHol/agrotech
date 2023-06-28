@@ -1,49 +1,41 @@
-#include <OneWire.h>
-#include <DallasTemperature.h>
+#include <Arduino.h>
 #include <Wire.h>
 #include "Adafruit_SHT31.h"
+#include <Adafruit_MLX90614.h>
 #include <WiFi.h>
 #include "ThingSpeak.h"
 
-// GPIO where the DS18B20 is connected to
-const int oneWireBus = A4;
-
-// Setup a oneWire instance to communicate with any OneWire devices
-OneWire oneWire(oneWireBus);
-
-// Pass our oneWire reference to Dallas Temperature sensor
-DallasTemperature sensors(&oneWire);
-
 Adafruit_SHT31 sht31 = Adafruit_SHT31();
+Adafruit_MLX90614 mlx = Adafruit_MLX90614();
+WiFiClient client;
 
 // Set the ThingSpeak channel and API key information
 unsigned long myChannelNumber = 2184926;
 const char* myWriteAPIKey = "JDZ7WLK4UNQE5CEW";
 
 // Set the WiFi network credentials
-const char* ssid = "Syd"; // your wifi SSID name
-const char* password = "0524371802"; // wifi password
+const char* ssid = "TP-Link_905D"; // your wifi SSID name
+const char* password = "33072036"; // wifi password
 
 // Set the ThingSpeak server address
 const char* server = "api.thingspeak.com";
-
-// Create a WiFiClient object to connect to the WiFi network
-WiFiClient client;
 
 // Set the time to wait between uploading data to ThingSpeak (in milliseconds)
 int wait_between_uploads = 10000; // 10 seconds
 
 void setup() {
-  // Start the serial communication at 112500 baud
-  Serial.begin(112500);
-
-  // Start the DS18B20 sensor
-  sensors.begin();
+  Serial.begin(115200);
 
   if (!sht31.begin(0x44)) {
     Serial.println("Couldn't find SHT31");
     while (1) delay(1);
   }
+
+  mlx.begin();
+
+  // Disconnect any previous WiFi connection
+  WiFi.disconnect();
+  delay(10);
 
   // Connect to the WiFi network
   WiFi.begin(ssid, password);
@@ -63,27 +55,11 @@ void setup() {
 }
 
 void loop() {
-  // Read sensor values
-  sensors.requestTemperatures();
-  float dsTemperatureC = sensors.getTempCByIndex(0);
-  float dsTemperatureF = sensors.getTempFByIndex(0);
-
+  // Read SHT31 sensor values
   float shtTemperature = sht31.readTemperature();
-  float shtHumidity = sht31.readHumidity();
-
-  if (!isnan(dsTemperatureC)) {
-    Serial.print("DS Temp *C = ");
-    Serial.println(dsTemperatureC);
-  } else {
-    Serial.println("Failed to read DS temperature");
-  }
-
-  if (!isnan(dsTemperatureF)) {
-    Serial.print("DS Temp *F = ");
-    Serial.println(dsTemperatureF);
-  } else {
-    Serial.println("Failed to read DS temperature");
-  }
+  float shtHumidity = sht31.readHumidity ();
+  float mlxambient = mlx.readAmbientTempC();
+  float mlxobject = mlx.readObjectTempC();
 
   if (!isnan(shtTemperature)) {
     Serial.print("SHT Temp *C = ");
@@ -99,11 +75,18 @@ void loop() {
     Serial.println("Failed to read SHT humidity");
   }
 
+  // Read MLX90614 sensor values
+  Serial.print("Ambient = ");
+  Serial.print(mlx.readAmbientTempC());
+  Serial.print("*C\tObject = ");
+  Serial.print(mlx.readObjectTempC());
+  Serial.println("*C");
+
   // Set the values to be sent to ThingSpeak
-  ThingSpeak.setField(1, dsTemperatureC);
-  ThingSpeak.setField(2, dsTemperatureF);
-  ThingSpeak.setField(3, shtTemperature);
-  ThingSpeak.setField(4, shtHumidity);
+  ThingSpeak.setField(1, shtTemperature);
+  ThingSpeak.setField(2, shtHumidity);
+  ThingSpeak.setField(3, mlxambient);
+  ThingSpeak.setField(4, mlxobject);
 
   // Send the data to ThingSpeak
   ThingSpeak.writeFields(myChannelNumber, myWriteAPIKey);
