@@ -9,7 +9,6 @@ In order to simulate the hydroponic system we used a large plastic box with thre
 
 [Componenets](Components)
 
-
 [Codes](Codes)
 
 [Data storage and mqtt](Thingspeak+Mqtt)
