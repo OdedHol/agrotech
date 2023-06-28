@@ -9,8 +9,6 @@
 
 
 * 3X [BreadBord](https://agrotech-lab.github.io/posts/tutorials/breadboard.html)
-
-
 *  3X [Realy](https://randomnerdtutorials.com/esp32-relay-module-ac-web-server/)
 
 # Sensors under water:  
