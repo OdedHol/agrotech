@@ -19,6 +19,8 @@ In order to simulate the hydroponic system we used a large plastic box with thre
 
 ## Why do we need our hydroponic system?
 
+The popular hydroponic system available in the market is expensive and not suitable for every budget. The hydroponic system we offer contains inexpensive and quality components that perform the same task.
+
 ![alt text](https://github.com/OdedHol/agrotech/blob/main/image.png)
 
 
