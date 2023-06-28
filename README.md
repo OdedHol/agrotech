@@ -17,7 +17,11 @@ In order to simulate the hydroponic system we used a large plastic box with thre
 
 ![alt text](https://github.com/OdedHol/agrotech/blob/main/WhatsApp%20Image%202023-06-28%20at%2012.34.05.jpeg)
 
+## Why do we need our hydroponic system?
+
 ![alt text](https://github.com/OdedHol/agrotech/blob/main/image.png)
+
+
 
 
 
