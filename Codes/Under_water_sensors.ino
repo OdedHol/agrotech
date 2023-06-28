@@ -138,8 +138,8 @@ void loop() {
     Serial.print("EC: ");
     Serial.print(EC);
     digitalWrite(TDS_V, LOW);
+    Serial.print("DONE");
 
-    delay(5000);
 
     // ThingSpeak
     ThingSpeak.setField(6, ph);
@@ -152,17 +152,22 @@ void loop() {
     // MQTT
     char tempString[8];
     dtostrf(tempCelsius, 1, 2, tempString);
-     if (ph<5.5) {
+     if (ph>5.5) {
     mqttClient.publish("agrotech/2023/relay/1", "1");
      }
-      if (ph>5.5) {
+      if (ph<5.5) {
     mqttClient.publish("agrotech/2023/relay/1", "0");
      }
-     if (EC<6) {
+     if (EC<500) {
     mqttClient.publish("agrotech/2023/relay/2", "1");
   }
-    if (EC>6) {
+    if (EC>500) {
     mqttClient.publish("agrotech/2023/relay/2", "0");
   }
+  if (Serial.print("DONE")) {
+    mqttClient.publish("agrotech/2023/relay/3", "1");
+  }
+      delay(60000);
+
 }
 }
