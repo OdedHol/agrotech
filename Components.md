@@ -16,10 +16,8 @@
 * 1X [pH Sensor](https://wiki.dfrobot.com/Industrial_pH_electrode_SKU_FIT0348_)
 * 1X [DS18B20 Temperature Sensor](https://randomnerdtutorials.com/guide-for-ds18b20-temperature-sensor-with-arduino/)
 
-
+### Sensors outside the water: 
 * 1X [SHT31-Temperature & Humidity Sensor](https://lastminuteengineers.com/sht31-temperature-humidity-sensor-arduino-tutorial/)
-
-
 * 1X Leaf Temperature Sensor
 
 
