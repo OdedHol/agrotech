@@ -14,3 +14,5 @@ In order to simulate the hydroponic system we used a large plastic box with thre
 [Data storage and mqtt](Thingspeak+Mqtt)
 
 [Data analysis](Data_analysis)
+
+![alt text](https://github.com/OdedHol/agrotech/blob/main/image.png)
