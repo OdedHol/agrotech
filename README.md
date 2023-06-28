@@ -16,4 +16,4 @@ In order to simulate the hydroponic system we used a large plastic box with thre
 [Data analysis](Data_analysis)
 
 ![alt text](https://github.com/OdedHol/agrotech/blob/main/image.png)
-![alt text](https://github.com/OdedHol/agrotech/blob/main/image.png)
+![alt text]([https://github.com/OdedHol/agrotech/blob/main/image.png](https://github.com/OdedHol/agrotech/blob/main/WhatsApp%20Image%202023-06-28%20at%2012.34.05.jpeg)https://github.com/OdedHol/agrotech/blob/main/WhatsApp%20Image%202023-06-28%20at%2012.34.05.jpeg)
