@@ -167,7 +167,7 @@ void loop() {
   if (Serial.print("DONE")) {
     mqttClient.publish("agrotech/2023/relay/3", "1");
   }
-      delay(60000);
+      delay(60000); // 1 min
 
 }
 }
