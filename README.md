@@ -23,7 +23,11 @@ The popular hydroponic system available in the market is expensive and not suita
 
 ![alt text](https://github.com/OdedHol/agrotech/blob/main/image.png)
 
-
+## The Final Outcome
+![alt text](https://github.com/OdedHol/agrotech/blob/main/WhatsApp%20Image%202023-06-28%20at%2017.14.26%20(1).jpeg)
+![alt text](https://github.com/OdedHol/agrotech/blob/main/WhatsApp%20Image%202023-06-28%20at%2017.14.26.jpeg)
+![alt text](https://github.com/OdedHol/agrotech/blob/main/WhatsApp%20Image%202023-06-28%20at%2012.34.10.jpeg)
+![alt text](https://github.com/OdedHol/agrotech/blob/main/WhatsApp%20Image%202023-06-28%20at%2012.34.10%20(2).jpeg)
 
 
 
