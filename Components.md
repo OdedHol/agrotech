@@ -7,8 +7,8 @@
 * [Float valve](https://www.akmueller.de/en/float-valves)
 
 ### Electronics:
-* 3X [ESP32](https://randomnerdtutorials.com/getting-started-with-esp32/)
-* 3X [BreadBord](https://agrotech-lab.github.io/posts/tutorials/breadboard.html)
+* 4X [ESP32](https://randomnerdtutorials.com/getting-started-with-esp32/)
+* 4X [BreadBord](https://agrotech-lab.github.io/posts/tutorials/breadboard.html)
 * 3X [Realy](https://randomnerdtutorials.com/esp32-relay-module-ac-web-server/)
 * Resistors
 
@@ -22,7 +22,8 @@
 * 1X Leaf Temperature Sensor
 
 ### Irrigation System:
-* 2X Peristaltic Pump 
+* 2X Peristaltic Pump
+* 1X Press Pump
 
 
 
