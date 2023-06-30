@@ -13,7 +13,6 @@ In order to simulate the hydroponic system we used a large plastic box with thre
 
 [Data storage and mqtt](Thingspeak+Mqtt)
 
-[Data analysis](Data_analysis)
 
 <img src="https://github.com/OdedHol/agrotech/blob/main/WhatsApp%20Image%202023-06-28%20at%2012.34.05.jpeg" width="400" height="450">
 
@@ -37,7 +36,7 @@ The popular hydroponic system available in the market is expensive and not suita
 <img src="https://github.com/OdedHol/agrotech/blob/main/WhatsApp%20Image%202023-06-28%20at%2012.34.10%20(2).jpeg" width="400" height="550">
 </div>
 
-## Data analysis
+## Data analysis                                                                                                                           [Data analysis](Data_analysis)
 
 
 
