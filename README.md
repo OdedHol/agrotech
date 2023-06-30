@@ -48,9 +48,13 @@ The popular hydroponic system available in the market is expensive and not suita
 
 ##
 Oded Hollander
+
 Yahel Halperin
+
 Shachar Miller
+
 The Faculty of Agriculture
+
 The Hebrew University of Jerusalem 
 
 
