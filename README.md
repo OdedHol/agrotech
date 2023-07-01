@@ -32,7 +32,7 @@ The popular hydroponic system available in the market is expensive and not suita
 
 <img src="https://github.com/OdedHol/agrotech/blob/main/WhatsApp%20Image%202023-06-28%20at%2017.14.26.jpeg" width="400" height="550">
 
-<img src="https://github.com/OdedHol/agrotech/blob/main/WhatsApp%20Image%202023-06-28%20at%2012.34.10.jpeg" width="400" height="550">
+<img src="https://github.com/OdedHol/agrotech/blob/main/Images/WhatsApp%20Image%202023-06-28%20at%2012.34.10.jpeg" width="400" height="550">
 
 <img src="https://github.com/OdedHol/agrotech/blob/main/WhatsApp%20Image%202023-06-28%20at%2012.34.10%20(2).jpeg" width="400" height="550">
 </div>
