@@ -13,7 +13,7 @@ In order to simulate the hydroponic system we used a large plastic box with thre
 
 The popular hydroponic system available in the market is expensive and not suitable for every budget. The hydroponic system we offer contains inexpensive and quality components that perform the same task.
 
-<img src="https://github.com/OdedHol/agrotech/blob/main/image.png" width="800" height="650">
+<img src="https://github.com/OdedHol/agrotech/blob/main/Images/WhatsApp%20Image%202023-06-28%20at%2016.55.51.jpeg" width="800" height="650">
 
 ## Contents
 
