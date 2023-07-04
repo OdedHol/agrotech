@@ -8,7 +8,7 @@ The data displayed pertains to the temperature of the water.
 
 It can be observed that data is received every 5 minutes, and during specific hours, for a duration of half an hour, the system flows fluids as needed.
 
-The data we received can be visualized on [Thingspeak](https://thingspeak.com/channels/2184926).
+All the remaining data regarding water conductivity, temperature of the leaf, and ambient temperature is displayed on [Thingspeak](https://thingspeak.com/channels/2184926).
 
 ### codes
 
