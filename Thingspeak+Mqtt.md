@@ -1,4 +1,5 @@
 In order to connect the peristaltic pumps to the TDS, pH, and temperature sensors, which will allow fluids to flow at specific times based on the correct readings, we used [MQTT](https://mqtt.org/).
+
 The data displayed pertains to the pH level.
 <img src="https://github.com/OdedHol/agrotech/blob/main/Images/WhatsApp%20Image%202023-06-28%20at%2017.17.13.jpeg">
 The data displayed pertains to the temperature of the water.
