@@ -10,7 +10,7 @@ It can be observed that data is received every 5 minutes, and during specific ho
 
 All the remaining data regarding water conductivity, temperature of the leaf, and ambient temperature is displayed on [Thingspeak](https://thingspeak.com/channels/2184926).
 
-In addition, we utilized three different relays. Two of them were used for controlling the pH pumps and the conductivity (TDS) pumps and 
+In addition, we utilized three different [Relays](https://randomnerdtutorials.com/guide-for-relay-module-with-arduino/). Two of them were used for controlling the pH pumps and the conductivity (TDS) pumps and 
 the third was used for the circulation pump.
 
 Relays have 2 working options: Normally closed or Normally open.
