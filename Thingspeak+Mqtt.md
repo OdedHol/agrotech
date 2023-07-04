@@ -17,6 +17,8 @@ We intended that when the pH in the system is higher than 5.5, the relay would b
 Likewise, the second relay would be activated within the specified range.
 The third relay is intended to activate when both measurements have been taken, and fluid flow according to the data. The circulation pump will operate and mix all the fluids to achieve a uniform solution, ensuring accurate measurements.
 
+<img src="https://github.com/OdedHol/agrotech/blob/main/Images/WhatsApp%20Image%202023-06-28%20at%2012.34.10.jpeg">
+
 ### codes
 
 [Press pump](Codes/Pres_Pump.ino)
