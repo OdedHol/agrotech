@@ -21,7 +21,7 @@ The popular hydroponic system available in the market is expensive and not suita
 
 [Codes](Codes)
 
-[Data storage and mqtt](Thingspeak+Mqtt.md)
+Click to read more about our system and how we combine MQTT [Data storage and mqtt](Thingspeak+Mqtt.md)
 
 <img src="https://github.com/OdedHol/agrotech/blob/main/Images/WhatsApp%20Image%202023-06-28%20at%2012.34.05.jpeg" width="400" height="450">
 
