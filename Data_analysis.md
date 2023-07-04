@@ -1,5 +1,4 @@
 
-![image](https://github.com/OdedHol/agrotech/assets/128286683/71c48a7b-6d70-437d-be79-33425fa3a804)
 
 
 Temp
