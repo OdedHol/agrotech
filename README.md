@@ -39,6 +39,16 @@ The popular hydroponic system available in the market is expensive and not suita
 
 ## [Data analysis](Data_analysis.md)
 
+### Outside water
+
+<img src="https://github.com/OdedHol/agrotech/blob/main/Figure%201.png" width = "700" height ="550"> 
+
+### Under water
+
+<img src="https://github.com/OdedHol/agrotech/blob/main/Figure%202.png" width = "700" height = "550">
+
+
+
 
 
 
