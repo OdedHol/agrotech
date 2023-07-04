@@ -13,7 +13,7 @@ All the remaining data regarding water conductivity, temperature of the leaf, an
 In addition, we utilized three different [Relays](https://randomnerdtutorials.com/guide-for-relay-module-with-arduino/). Two of them were used for controlling the pH pumps and the conductivity (TDS) pumps and 
 the third was used for the circulation pump.
 
-Relays have 2 working options: Normally closed or Normally open - [click](https://randomnerdtutorials.com/guide-for-relay-module-with-arduino/) to read detail.
+Relays have 2 working options: Normally closed or Normally open - [click](https://randomnerdtutorials.com/guide-for-relay-module-with-arduino/) to read more detail.
 
 We intended that when the pH in the system is higher than 5.5, the relay would be triggered to send a signal of 1 - To dispense acid. In that condition the relay would be on NC.
 Likewise, the second relay would be activated within the specified range.
