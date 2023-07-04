@@ -11,8 +11,10 @@ It can be observed that data is received every 5 minutes, and during specific ho
 All the remaining data regarding water conductivity, temperature of the leaf, and ambient temperature is displayed on [Thingspeak](https://thingspeak.com/channels/2184926).
 
 In addition, we utilized three different relays. Two of them were used for controlling the pH pumps and the conductivity (TDS) pumps and 
-the third was used for the circulation pump. 
+the third was used for the circulation pump.
+
 Relays have 2 working options: Normally closed or Normally open.
+
 We intended that when the pH in the system is higher than 5.5, the relay would be triggered to send a signal of 1 - To dispense acid.
 Likewise, the second relay would be activated within the specified range.
 The third relay is intended to activate when both measurements have been taken, and fluid flow according to the data. The circulation pump will operate and mix all the fluids to achieve a uniform solution, ensuring accurate measurements.
