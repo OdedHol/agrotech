@@ -1,6 +1,6 @@
 
 Under water
-<img src="https://github.com/OdedHol/agrotech/blob/main/Figure%201.png" width = "500" height ="550"> 
+<img src="https://github.com/OdedHol/agrotech/blob/main/Figure%201.png" width = "550" height ="550"> 
 
 Temp
 <img src="https://github.com/OdedHol/agrotech/blob/main/Images/WhatsApp%20Image%202023-06-28%20at%2017.15.58.jpeg" width="500" height="550">
